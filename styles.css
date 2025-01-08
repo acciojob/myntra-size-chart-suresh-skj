@@ -1,2 +1,36 @@
+/* Your CSS Code here. */
+/* Basic styling for the table */
+table {
+    width: 70%; /* Increased width for a larger table */
+    margin: 20px auto;
+    border-collapse: collapse;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow around the table */
+}
+
+th, td {
+    padding: 12px; /* Slightly more padding for a more spacious look */
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold; /* Make header text bold */
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #f9f9f9; /* Light background for odd rows for better readability */
+}
+
+tbody tr:hover {
+    background-color: #e0e0e0; /* Highlight rows when hovered */
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #333; /* Darker text color for the heading */
+    font-family: 'Arial', sans-serif; /* Use a simple sans-serif font for better readability */
+}
 
 /* Your CSS Code here. */
